@@ -90,6 +90,11 @@
      border: 1px solid #eeeeee;
  }
  
+ img {
+     width: 290px;
+     height: 190px;
+ }
+ 
  figcaption {
      font-size: 90%;
      text-align: left;
