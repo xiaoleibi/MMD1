@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HTML5 Layout</title>
+    <link rel="stylesheet" href="style.css">
+    <!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images//favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images//favicon-16x16.png">
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <h1>XBI's Kitchen</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="classes.html">classes</a></li>
+                    <li><a href="catering.html">gallery</a></li>
+                    <li><a href="contact.html" class="current">contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section>
+
+
+            <form action="">
+                <fieldset>
+                    <legend>Register form</legend>
+
+                    <p>
+                        <!-- Text widgets for name and address -->
+
+
+
+
+                        <label> Your Name:  &nbsp;</label>
+
+
+                        <input type="text" name="name" size="30" required autofocus/>
+
+
+
+
+                        <label> Street Address: &nbsp;</label>
+
+
+                        <input type="text" name="street" size="30" requried/>
+
+
+
+
+
+                        <label> City, State, Zip:</label>
+
+
+                        <input name="city" size="30" type="number" min="0" max="8000" />
+
+
+
+
+                        <label> E-mail </label>
+
+                        <input type="email" id="email" name="email" placeholder="xibi@gmail.com">
+
+
+
+                        <!-- A table for item orders -->
+                        <br>
+
+                        <table>
+
+                            <!-- First, the column headings -->
+
+                            <tr>
+                                <th> Product Name </th>
+                                <th> Price </th>
+                                <th> Note </th>
+                            </tr>
+
+                            <!-- Now, the table data entries -->
+
+                            <tr>
+                                <td> workshop </td>
+                                <td> $3.00 </td>
+                                <td> <input type="number" name="unpop" size="2" min="0" max="99" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td> vegetarian class </td>
+                                <td> $3.50 </td>
+                                <td> <input type="number" name="caramel" size="2" min="0" max="99" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td> cooking class </td>
+                                <td> $4.50 </td>
+                                <td> <input type="number" name="caramelnut" size="2" min="0" max="99" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td> workshop sushi </td>
+                                <td> $5.00 </td>
+                                <td> <input type="number" name="toffeynut" size="2" min="0" max="99" />
+                                </td>
+                            </tr>
+
+                        </table>
+                        <p>
+                            <!-- The submit and reset buttons -->
+
+                            <h3>Paying method</h3>
+                            <label class="beta" for="kortvalg">choose</label>
+                            <input type="text" name="kort_valg" id="kortvalg" list="valg_af_betaling">
+                            <datalist id="valg_af_betaling">
+					<option data-value="Kontant">Cash</option>
+					<option data-value="Dankort">Dankort</option>
+					<option data-value="Visa">Visa</option>
+					<option data-value="Mastercard">Marstercard</option>
+					<option data-value="Mobilepay">Mobilepay</option>
+				</datalist>
+                            <br><br><br>
+
+
+                            <input type="submit" id="send" value="Book your course">
+                            <input type="reset" id="reset" value="Try again">
+
+
+                </fieldset>
+                <!-- The radio buttons for the payment method -->
+
+
+
+
+
+            </form>
+
+
+            </fieldset>
+            </form>
+        </section>
+
+
+
+        <footer>
+            &copy; This Site is for Education Purpose Only, 2020 XBI 's EAMV Herning MMD course</footer>
+    </div>
+    <!-- .wrapper -->
+</body>
+
+</html>
