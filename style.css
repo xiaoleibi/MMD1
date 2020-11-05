@@ -348,3 +348,7 @@ textarea:focus {
         margin-right: .5em;
     }
 }
+
+.current {
+    text-decoration: underline;
+}
