@@ -1,251 +1,236 @@
- header,
- section,
- footer,
- aside,
- nav,
- article,
- figure,
- figcaption {
-     display: block;
- }
- 
- body {
-     color: #666666;
-     background-color: #f9f8f6;
-     background-image: url("images/dark-wood.jpg");
-     background-position: center;
-     font-family: Georgia, Times, serif;
-     line-height: 1.4em;
-     margin: 0px;
- }
- 
- .wrapper {
-     width: 940px;
-     margin: 20px auto 20px auto;
-     border: 2px solid #000000;
-     background-color: #ffffff;
- }
- 
- header {
-     height: 160px;
-     background-image: url("images/header.jpg");
- }
- 
- h1 {
-     text-indent: -9999px;
-     width: 940px;
-     height: 130px;
-     margin: 0px;
- }
- 
- nav,
- footer {
-     clear: both;
-     color: #ffffff;
-     background-color: #aeaca8;
-     height: 30px;
- }
- 
- nav ul {
-     margin: 0px;
-     padding: 5px 0px 5px 30px;
- }
- 
- nav li {
-     display: inline;
-     margin-right: 40px;
- }
- 
- nav li a {
-     color: #ffffff;
- }
- 
- nav li a:hover,
- nav li a.current {
-     color: #000000;
- }
- 
- section.courses {
-     float: left;
-     width: 659px;
-     border-right: 1px solid #eeeeee;
- }
- 
- article {
-     clear: both;
-     overflow: auto;
-     width: 100%;
- }
- 
- hgroup {
-     margin-top: 40px;
- }
- 
- figure {
-     float: left;
-     width: 290px;
-     height: 220px;
-     padding: 5px;
-     margin: 20px;
-     border: 1px solid #eeeeee;
- }
- 
- img {
-     width: 290px;
-     height: 190px;
- }
- 
- figcaption {
-     font-size: 90%;
-     text-align: left;
- }
- 
- aside {
-     width: 230px;
-     float: left;
-     padding: 0px 0px 0px 20px;
- }
- 
- aside section a {
-     display: block;
-     padding: 10px;
-     border-bottom: 1px solid #eeeeee;
- }
- 
- aside section a:hover {
-     color: #985d6a;
-     background-color: #efefef;
- }
- 
- a {
-     color: #de6581;
-     text-decoration: none;
- }
- 
- h1,
- h2,
- h3 {
-     font-weight: normal;
- }
- 
- h2 {
-     margin: 10px 0px 5px 0px;
-     padding: 0px;
- }
- 
- h3 {
-     margin: 0px 0px 10px 0px;
-     color: #de6581;
- }
- 
- aside h2 {
-     padding: 30px 0px 10px 0px;
-     color: #de6581;
- }
- 
- footer {
-     font-size: 80%;
-     padding: 7px 0px 0px 20px;
- }
- 
- .beta {
-     margin: 0;
- }
- /* Fieldset and legend */
- 
- fieldset {
-     margin: 2em 0;
-     padding: 2em 2em;
-     border: solid 1px #ccc;
-     border-radius: 12px;
-     min-width: 200px;
-     background-color: rgba(255, 255, 255, .85);
- }
- 
- legend {
-     font-size: 1.25em;
-     padding: 0 .25em;
-     position: relative;
-     top: 25px;
-     left: -6px;
- }
- /* Labels */
- 
- label {
-     display: block;
-     margin-top: 1em;
- }
- 
- .checks label {
-     margin-top: 8;
- }
- 
- label:first-of-type {
-     margin-top: 0;
- }
- /* Inputs and textarea  */
- 
- input {
-     padding: .5em;
-     border: solid 1px #999;
- }
- 
- input[type="email"],
- input[type="text"] {
-     width: 15em;
- }
- 
- textarea {
-     min-height: 8em;
-     min-width: 100%;
-     padding: .5em;
-     border: solid 1px #999;
- }
- /* radio buttons and checkboxes */
- 
- .checks {
-     margin-bottom: 1em;
- }
- 
- .checks p {
-     margin-bottom: 0;
- }
- /* Submit Button */
- 
- input[type="submit"],
- input[type="reset"] {
-     padding: .5em 1em;
-     border-radius: 6px;
-     background-color: #333;
-     color: #fff;
-     font-family: 'Lato', sans-serif;
-     font-size: .8em;
- }
- /*Focus style*/
- 
- input:focus,
- textarea:focus {
-     outline: solid 1px #F3BB93;
-     box-shadow: 0 0 5px #C73403;
- }
- /* Large screen rules */
- 
- @media screen and (min-width: 430px) {
-     legend {
-         font-size: 1.75em;
-     }
-     fieldset {
-         width: 60%;
-         min-width: 320px;
-         margin: auto;
-     }
-     .checks label {
-         display: inline-block;
-         padding-top: .5em;
-         margin-top: 0;
-     }
- }
- 
- .current {
-     text-decoration: underline;
- }
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@600&display=swap');
+header,
+section,
+footer,
+aside,
+nav,
+article,
+figure,
+figcaption {
+    display: block;
+}
+
+body {
+    color: #666666;
+    background-color: #f9f8f6;
+    background-image: url("images/dark-wood.jpg");
+    background-position: center;
+    font-family: Georgia, Times, serif;
+    line-height: 1.4em;
+    margin: 0px;
+}
+
+.wrapper {
+    width: 80%;
+    margin: -20px auto 20px auto;
+    border: 2px solid #000000;
+    background-color: #efefef;
+}
+
+header {
+    background-image: url("images/header.jpg");
+    background-repeat: repeat-x;
+}
+
+h1 {
+    width: 100%;
+    height: 30%;
+    color: #666666;
+    padding-top: 2em;
+    padding-left: 1em;
+    font-family: cursive;
+    font-size: 2em;
+    font-weight: 900;
+    font-family: 'Sansita Swashed', cursive;
+}
+
+footer {
+    clear: both;
+    color: #ffffff;
+    background-color: #aeaca8;
+    height: 30px;
+}
+
+nav {
+    /* This aligns items to the end line on main-axis */
+    background-color: #666666;
+}
+
+nav ul {
+    display: flex;
+    flex-flow: row wrap;
+    list-style: none;
+    margin: 0;
+    padding: 5px 0px 5px 30px;
+}
+
+nav li {
+    /* display: inline; */
+    margin-right: 40px;
+}
+
+nav li a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: background-color 0.2s, border-color 0.2s, box-shadow 0.2s;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
+}
+
+
+/* transition: is the animation 
+ } */
+
+a:hover,
+a:focus {
+    background-color: #c6de89;
+    border-color: #a3c058;
+    box-shadow: 10px 10px 10px rgba(60, 60, 60, 0.5);
+}
+
+a:active {
+    top: 3px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
+}
+
+section.courses {
+    float: left;
+    width: 659px;
+    border-right: 1px solid #eeeeee;
+}
+
+article {
+    clear: both;
+    overflow: auto;
+    width: 100%;
+}
+
+hgroup {
+    margin-top: 40px;
+}
+
+figure {
+    float: left;
+    width: 290px;
+    height: 220px;
+    padding: 5px;
+    margin: 20px;
+    border: 1px solid #eeeeee;
+}
+
+img {
+    /* width: 290px;
+    height: 190px; */
+    max-width: 100%;
+    width: 100%;
+}
+
+figcaption {
+    font-size: 90%;
+    text-align: left;
+}
+
+aside {
+    width: 230px;
+    float: left;
+    padding: 0px 0px 0px 20px;
+}
+
+aside section a {
+    display: block;
+    padding: 10px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+aside section a:hover {
+    color: #985d6a;
+    background-color: #efefef;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: normal;
+}
+
+h2 {
+    margin: 10px 0px 5px 0px;
+    padding: 0px;
+}
+
+h3 {
+    margin: 0px 0px 10px 0px;
+    color: #de6581;
+}
+
+aside h2 {
+    padding: 30px 0px 10px 0px;
+    color: #de6581;
+}
+
+footer {
+    font-size: 80%;
+    padding: 7px 0px 0px 20px;
+    background: rgba(78, 78, 68, 0.8);
+}
+
+#badge {
+    position: absolute;
+    top: -2%;
+    left: 55%;
+}
+
+img {
+    border-radius: 5px 10px 15px 20px;
+}
+
+
+/* responsive design for small screen; */
+
+@media only screen and (max-width: 500px) {
+    hgroup {
+        /* margin-top: 40px; */
+        display: block;
+        clear: both;
+        padding-bottom: 3em;
+    }
+    hgroup h2 {
+        margin-left: 2em;
+    }
+    hgroup h3 {
+        margin-left: 3em;
+    }
+    article p {
+        margin-left: 3em;
+        max-width: 300px;
+    }
+    header {
+        height: 30%;
+    }
+    /* nav li {
+        display: block;
+        margin-right: 40px;
+        background-color: darkgrey;
+        z-index: 100;
+    } */
+    figure {
+        float: none;
+        margin-top: 5em;
+    }
+}
+
+@media all and (max-width: 800px) {
+    nav ul {
+        /* When on medium sized screens, we center it by evenly distributing empty space around items */
+        justify-content: space-around;
+    }
+}
+
+
+/* Small screens */
+
+@media all and (max-width: 500px) {
+    nav ul {
+        /* On small screens, we are no longer using row direction but column */
+        flex-direction: column;
+    }
+}

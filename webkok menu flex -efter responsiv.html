@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            color: #2A2B2A;
+            background: #F3EFE0;
+            font-family: 'Montserrat', sans-serif;
+        }
+        
+        .header {
+            background: #F9C945;
+            padding: 50px 0;
+            border-bottom: 3px solid white;
+            text-align: center;
+        }
+        
+        h1 {
+            text-align: center;
+            text-transform: uppercase;
+            padding: 10px 30px;
+            display: inline-block;
+            border: 3px solid white;
+            color: white;
+        }
+        
+        ul {
+            padding: 0;
+            list-style: none;
+            display: flex;
+            flex: 1 0 auto;
+            /*  can grow do not shrink */
+            flex-wrap: wrap;
+            justify-content: space-between;
+            width: 90%;
+            max-width: 900px;
+            margin: 50px auto;
+        }
+        
+        p {
+            margin: 5px;
+        }
+        
+        li {
+            display: flex;
+            align-items: stretch;
+            width: 48%;
+            padding: 10px 0;
+        }
+        
+        .menu-name {
+            flex: 0 0 auto;
+            font-weight: 500;
+            font-size: 18px;
+        }
+        
+        .dots {
+            border-bottom: 1px dotted black;
+            margin-bottom: 7px;
+            flex: 1 1 50%;
+        }
+        
+        .menu-price {
+            font-size: 16px;
+        }
+        
+        @media all and (max-width: 500px) {
+            ul {
+                /* On small screens, only one column */
+                flex-direction: column;
+            }
+            li {
+                width: auto;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h1>Menu</h1>
+    </div>
+    <ul>
+        <li>
+            <p class="menu-name">Chicken</p>
+            <span class="dots"></span>
+            <p class="menu-price">$20</p>
+        </li>
+        <li>
+            <p class="menu-name">Waffles</p>
+            <span class="dots"></span>
+            <p class="menu-price">$20</p>
+        </li>
+        <li>
+            <p class="menu-name">Sandwith</p>
+            <span class="dots"></span>
+            <p class="menu-price">$20</p>
+        </li>
+        <li>
+            <p class="menu-name">Spaghetti</p>
+            <span class="dots"></span>
+            <p class="menu-price">$25</p>
+        </li>
+        <li>
+            <p class="menu-name">Lasagna</p>
+            <span class="dots"></span>
+            <p class="menu-price">$10</p>
+        </li>
+        <li>
+            <p class="menu-name">Scrambled Eggs</p>
+            <span class="dots"></span>
+            <p class="menu-price">$8</p>
+        </li>
+        <li>
+            <p class="menu-name">Chicken</p>
+            <span class="dots"></span>
+            <p class="menu-price">$20</p>
+        </li>
+        <li>
+            <p class="menu-name">Spaghetti</p>
+            <span class="dots"></span>
+            <p class="menu-price">$12</p>
+        </li>
+        <li>
+            <p class="menu-name">Spaghetti</p>
+            <span class="dots"></span>
+            <p class="menu-price">$20</p>
+        </li>
+        <li>
+            <p class="menu-name">Spaghetti</p>
+            <span class="dots"></span>
+            <p class="menu-price">$20</p>
+        </li>
+        <li>
+            <p class="menu-name">Lasagna</p>
+            <span class="dots"></span>
+            <p class="menu-price">$22</p>
+        </li>
+        <li>
+            <p class="menu-name">Scrambled Eggs</p>
+            <span class="dots"></span>
+            <p class="menu-price">$15</p>
+        </li>
+    </ul>
+</body>
+
+</html>
